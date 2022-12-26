@@ -13,23 +13,23 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\Flutter projects\getx_cli\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->D:\Flutter projects\getx_cli\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->D:\Flutter projects\getx_cli_pattern\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->D:\Flutter projects\getx_cli_pattern\android\app\src\debug\AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-16-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
-16-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+16-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+16-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
 17    <uses-permission android:name="android.permission.VIBRATE" />
-17-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
-17-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+17-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+17-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
 18    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-18-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
-18-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+18-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+18-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
 19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-19-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
-19-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+19-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+19-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
 20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-20-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
-20-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+20-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+20-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
 21
 22    <application
 23        android:name="android.app.Application"
@@ -72,37 +72,37 @@
 59            android:value="2" />
 60
 61        <receiver
-61-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+61-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
 62            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-62-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+62-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
 63            android:exported="false" />
-63-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+63-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 64        <receiver
-64-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+64-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
 65            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-65-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+65-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
 66            android:exported="false" />
-66-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+66-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
 67        <receiver
-67-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+67-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
 68            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-68-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+68-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
 69            android:exported="false" >
-69-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+69-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
 70            <intent-filter>
-70-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+70-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
 71                <action android:name="android.intent.action.BOOT_COMPLETED" />
-71-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
-71-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+71-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+71-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
 72                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-72-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
-72-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+72-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+72-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
 73                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-73-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
-73-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+73-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+73-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
 74                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-74-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
-74-->[:flutter_local_notifications] D:\Flutter projects\getx_cli\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+74-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+74-->[:flutter_local_notifications] D:\Flutter projects\getx_cli_pattern\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
 75            </intent-filter>
 76        </receiver>
 77
