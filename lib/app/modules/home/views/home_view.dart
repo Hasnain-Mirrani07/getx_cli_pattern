@@ -8,7 +8,7 @@ class HomeView extends GetView<HomeController> {
   HomeView({Key? key}) : super(key: key);
   TextEditingController textEditingController = TextEditingController();
   static String name = 'abc';
- 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,12 +111,12 @@ class AutocompleteBasicUserExample extends StatelessWidget {
   const AutocompleteBasicUserExample({super.key});
 
   static const List<User> _userOptions = <User>[
-    User(name: 'Alice', email: 'alice@example.com'),
+    User(name: 'Alice', email: 'abc@example.com'),
     User(name: 'Bob', email: 'bob@example.com'),
     User(name: 'Charlie', email: 'charlie123@gmail.com'),
   ];
 
-  static String _displayStringForOption(User option) => option.email; 
+  static String _displayStringForOption(User option) => option.email;
 
   @override
   Widget build(BuildContext context) {
@@ -133,7 +133,7 @@ class AutocompleteBasicUserExample extends StatelessWidget {
         });
       },
       onSelected: (User selection) {
-        print('You just selected ${_displayStringForOption(selection)}');
+        print('You  ${_displayStringForOption(selection)}');
       },
     );
   }
